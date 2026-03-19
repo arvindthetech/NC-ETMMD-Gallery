@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NC-ETMMD-2026 | Gallery</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header will be loaded here -->
+    <div id="header-container"></div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <div class="filter-grid" id="filterContainer"></div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="loading">Loading gallery...</div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="timeline-section">
+            <h2 class="timeline-title">Event Timeline</h2>
+            <div class="timeline" id="timeline"></div>
+        </section>
+    </main>
+
+    <!-- Footer will be loaded here -->
+    <div id="footer-container"></div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox" id="closeLightbox">✕</span>
+        <span class="lightbox-nav prev" id="prevImage">←</span>
+        <span class="lightbox-nav next" id="nextImage">→</span>
+        <div class="lightbox-content">
+            <img id="lightboxImg" src="" alt="">
+            <div class="lightbox-caption" id="lightboxCaption">Image <span id="currentImageIndex">1</span> of <span id="totalImages">0</span></div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
