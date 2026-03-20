@@ -131,58 +131,209 @@ const galleryData = [
     { id: 122, src: "https://drive.google.com/thumbnail?id=1ybuLYLC7QHBSzJMfj4y8R69UGCH9PIJ5&sz=w1000", category: "speaker" },
     { id: 123, src: "https://drive.google.com/thumbnail?id=1GJOR_dKnlbCRjzmZmh1T8EaJ1Xq-8cKU&sz=w1000", category: "speaker" },
     
-    // POSTER SESSIONS
-    {
-        id: 7,
-        src: "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_7",
-        category: "poster"
-    },
-    {
-        id: 8,
-        src: "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_8",
-        category: "poster"
-    },
     
-    // ORAL PRESENTATIONS
-    {
-        id: 9,
-        src: "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_9",
-        category: "oral"
-    },
-    {
-        id: 10,
-        src: "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_10",
-        category: "oral"
-    },
+    // ========== ORAL AND POSTER SESSIONS (ID: 124 onwards) ==========
     
-    // VALEDICTORY CEREMONY
-    {
-        id: 11,
-        src: "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_11",
-        category: "valedictory"
-    },
-    {
-        id: 12,
-        src: "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_12",
-        category: "valedictory"
-    },
+    { id: 124, src: "https://drive.google.com/thumbnail?id=1X5_AnZre9mVdhLCIfOb4dhST9Ag81m-b&sz=w1000", category: "oral_poster" },
+    { id: 125, src: "https://drive.google.com/thumbnail?id=1-5NPCjSbK0kg_OKsBlceheIkibxaSRdb&sz=w1000", category: "oral_poster" },
+    { id: 126, src: "https://drive.google.com/thumbnail?id=1e7NaDJY_Duy6BU7KtePfkIsfXPHQ0pcc&sz=w1000", category: "oral_poster" },
+    { id: 127, src: "https://drive.google.com/thumbnail?id=1T6iQto2s6RmpTYO6dxRcoH9yh7ce1scG&sz=w1000", category: "oral_poster" },
+    { id: 128, src: "https://drive.google.com/thumbnail?id=1rQuXZ3635k1YaaIPhsW5Y-IO4L5U7JHK&sz=w1000", category: "oral_poster" },
+    { id: 129, src: "https://drive.google.com/thumbnail?id=1CooLG1Dym_QurkMS6khcTnh1SU2BDVq3&sz=w1000", category: "oral_poster" },
+    { id: 130, src: "https://drive.google.com/thumbnail?id=1X8lTrjbyxxNB9rxxPC5Mv5OZsPtrhs1Z&sz=w1000", category: "oral_poster" },
+    { id: 131, src: "https://drive.google.com/thumbnail?id=1cPTC3mWzhGffq6eFhgGzSodt_AdejXZv&sz=w1000", category: "oral_poster" },
+    { id: 132, src: "https://drive.google.com/thumbnail?id=1icAbu36i2GbTGGgu4fPa_OiwajUP2Ig5&sz=w1000", category: "oral_poster" },
+    { id: 133, src: "https://drive.google.com/thumbnail?id=1EdYfK-CdqryKOboKxrIsVm3eL1KRKzXK&sz=w1000", category: "oral_poster" },
+    { id: 134, src: "https://drive.google.com/thumbnail?id=1qg2FDMJ35FvQMLq84W-wZm8HfRbXIP03&sz=w1000", category: "oral_poster" },
+    { id: 135, src: "https://drive.google.com/thumbnail?id=1WQva7YHm-ZXWKuzIsOk6wtqvU7sPiUfI&sz=w1000", category: "oral_poster" },
+    { id: 137, src: "https://drive.google.com/thumbnail?id=1yZjltV4SRft4afHDM-EGxNQR_AHDWkRB&sz=w1000", category: "oral_poster" },
+    { id: 136, src: "https://drive.google.com/thumbnail?id=17kJM92SQDJYHoklI6lfJfSm9PW1fOchh&sz=w1000", category: "oral_poster" },
+    { id: 138, src: "https://drive.google.com/thumbnail?id=1R9qLFiyNkgYX_GkHWqkLEHd_JUFTn6C8&sz=w1000", category: "oral_poster" },
+    { id: 139, src: "https://drive.google.com/thumbnail?id=10DTsyIAMT59X4NXFCX7W2KIY0pUibAkQ&sz=w1000", category: "oral_poster" },
+    { id: 140, src: "https://drive.google.com/thumbnail?id=1I1pKo0wcyHd40LiO4W4QIirkZyFMD2kZ&sz=w1000", category: "oral_poster" },
+    { id: 141, src: "https://drive.google.com/thumbnail?id=15ScEgeRzTWHHB7VZ76w9YoidIq9FDxlO&sz=w1000", category: "oral_poster" },
+    { id: 142, src: "https://drive.google.com/thumbnail?id=1rTid4XEGq26ElZwCt841DJVrv8ZyAxQq&sz=w1000", category: "oral_poster" },
+    { id: 143, src: "https://drive.google.com/thumbnail?id=1gAQxqjZmpUHBjiWmb01QkJ_K568eH4KZ&sz=w1000", category: "oral_poster" },
+    { id: 144, src: "https://drive.google.com/thumbnail?id=1ZvCugjBAqqQX3RyCkjry4hsh7VaXaeko&sz=w1000", category: "oral_poster" },
+    { id: 145, src: "https://drive.google.com/thumbnail?id=1Vz1nOUxDi8kp1Fmu_hV5Rx5jIkQP1v76&sz=w1000", category: "oral_poster" },
+    { id: 146, src: "https://drive.google.com/thumbnail?id=1uMTP3nUzrS0A4VXhtzD3PwsYz8vWaH_9&sz=w1000", category: "oral_poster" },
+    { id: 147, src: "https://drive.google.com/thumbnail?id=1ZjCVltMD3sc8pmkJGRhCPK2oU6PJsyrn&sz=w1000", category: "oral_poster" },
+    { id: 148, src: "https://drive.google.com/thumbnail?id=1GRZZiLAz5k-MjURL7i4xtcTndbVqyAi5&sz=w1000", category: "oral_poster" },
+    { id: 149, src: "https://drive.google.com/thumbnail?id=1uFg0ifOFtPXlkQIheWogqrYOIZHcU6CU&sz=w1000", category: "oral_poster" },
+    { id: 150, src: "https://drive.google.com/thumbnail?id=1YdNtyEBLwv1IIkhnevpcINxw7ox7lyQH&sz=w1000", category: "oral_poster" },
+    { id: 151, src: "https://drive.google.com/thumbnail?id=1nWRMHzTTCBqsV3awKU8OJJ7snMeb7mCT&sz=w1000", category: "oral_poster" },
+    { id: 152, src: "https://drive.google.com/thumbnail?id=1cuRYsmmRYHnGGB1AYscq3a-AFAe4DJQL&sz=w1000", category: "oral_poster" },
+    { id: 153, src: "https://drive.google.com/thumbnail?id=12yvrciuTHGFjClqrnXhkuqe0nc1WJPZd&sz=w1000", category: "oral_poster" },
+    { id: 154, src: "https://drive.google.com/thumbnail?id=1AwydDB8bugK7lNAO8eSmZcFkoVk7s5FH&sz=w1000", category: "oral_poster" },
+    { id: 155, src: "https://drive.google.com/thumbnail?id=1ebjYzqUY2EpJ96CF8MFDda39zsgilZK4&sz=w1000", category: "oral_poster" },
+    { id: 156, src: "https://drive.google.com/thumbnail?id=1_7z8NnIJAIv8k0mimiRHawYdHT1t6Sss&sz=w1000", category: "oral_poster" },
+    { id: 157, src: "https://drive.google.com/thumbnail?id=1IDw009XJfIo9UylFlSn9FwwSVhSLEGGb&sz=w1000", category: "oral_poster" },
+    { id: 158, src: "https://drive.google.com/thumbnail?id=1wXgNdGNf3EIlJ3R_d7BlHH7WGeymjXxD&sz=w1000", category: "oral_poster" },
+    { id: 159, src: "https://drive.google.com/thumbnail?id=1UM-Bnmwv4jlAjkMAhSlkQQwmM1rBWvPP&sz=w1000", category: "oral_poster" },
+    { id: 160, src: "https://drive.google.com/thumbnail?id=1PlsUyeCAl80JkaRilJks3OYOVfxiW6Ge&sz=w1000", category: "oral_poster" },
+    { id: 161, src: "https://drive.google.com/thumbnail?id=1dODSLQe_ZYZUXJjzN_ljWItM0FpUvIYL&sz=w1000", category: "oral_poster" },
+    { id: 162, src: "https://drive.google.com/thumbnail?id=1IoM4soBFBGVsd1XLHpPPy3T6kNfaPdDG&sz=w1000", category: "oral_poster" },
+    { id: 163, src: "https://drive.google.com/thumbnail?id=1bSbORFXhbIa3Aw6iPv43h6Xvm_WqgXrj&sz=w1000", category: "oral_poster" },
+    { id: 164, src: "https://drive.google.com/thumbnail?id=1aXO0rsX2u_sxuqdfgkROjCZoFiHLOpld&sz=w1000", category: "oral_poster" },
+    { id: 165, src: "https://drive.google.com/thumbnail?id=18AlFqjOJ8nMqa_8K8OFfJS-mG28V77wV&sz=w1000", category: "oral_poster" },
+    { id: 166, src: "https://drive.google.com/thumbnail?id=1MuWnAYuWAZOdr4T1E-ShASlZKv6RTM8A&sz=w1000", category: "oral_poster" },
+    { id: 167, src: "https://drive.google.com/thumbnail?id=1y46dJMF_GmnUQ2mhO_UN8KrQwS963pQZ&sz=w1000", category: "oral_poster" },
+    { id: 168, src: "https://drive.google.com/thumbnail?id=1XE5T_nAKxCRoGx-BqZkxxPUXVa06RrgG&sz=w1000", category: "oral_poster" },
+    { id: 169, src: "https://drive.google.com/thumbnail?id=1qKoXbkAWerCBL_Vxk9JmXCcXUmcTaYBr&sz=w1000", category: "oral_poster" },
+    { id: 170, src: "https://drive.google.com/thumbnail?id=1Rd4KhUYdeKiy5glYz3_l56zQGnVV8bKe&sz=w1000", category: "oral_poster" },
+    { id: 171, src: "https://drive.google.com/thumbnail?id=1BzgJY6dWuWaNKaAx9pTptt-UDkol-vsY&sz=w1000", category: "oral_poster" },
+    { id: 172, src: "https://drive.google.com/thumbnail?id=1__41qwQmGHjt0CsaIWb70L_hdzlIMDBr&sz=w1000", category: "oral_poster" },
     
-    // GROUP PHOTOS
-    {
-        id: 13,
-        src: "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_13",
-        category: "group"
-    },
-    {
-        id: 14,
-        src: "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_14",
-        category: "group"
-    },
-    {
-        id: 15,
-        src: "https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_15",
-        category: "group"
-    }
+    // ========== VALEDICTORY CEREMONY (ID: 173 onwards) ==========
+    { id: 173, src: "https://drive.google.com/thumbnail?id=1rKpdh3sW2-HGIXvsS3ve4VNUOTI3QEB5&sz=w1000", category: "valedictory" },
+    { id: 174, src: "https://drive.google.com/thumbnail?id=1RYiP-wxR4e406zoPwdD_MJnTZW6OsZht&sz=w1000", category: "valedictory" },
+    { id: 175, src: "https://drive.google.com/thumbnail?id=1-Mc9p6wkCSJam8sBo9_WnPHng8uPxchk&sz=w1000", category: "valedictory" },
+    { id: 176, src: "https://drive.google.com/thumbnail?id=16FDS7cWvy7eEoPdAOHtD5Y00URRY0DgF&sz=w1000", category: "valedictory" },
+    { id: 177, src: "https://drive.google.com/thumbnail?id=1AD30wYw8uPEPZPRIZQMZ6mr_aPTQS-lU&sz=w1000", category: "valedictory" },
+    { id: 178, src: "https://drive.google.com/thumbnail?id=17402oNxLve1DxJEN_ZVgy6z3gYS00ZoK&sz=w1000", category: "valedictory" },
+    { id: 179, src: "https://drive.google.com/thumbnail?id=1NojrZbY38erqO9NlBMYKCH3CD6AQTJVh&sz=w1000", category: "valedictory" },
+    { id: 180, src: "https://drive.google.com/thumbnail?id=1qPS4_nmg2aCr97k8kM2Lry3PppWbY-1D&sz=w1000", category: "valedictory" },
+    { id: 181, src: "https://drive.google.com/thumbnail?id=18mvtdSPa-9vg26uJLKWZElqQKOqBU6jz&sz=w1000", category: "valedictory" },
+    { id: 182, src: "https://drive.google.com/thumbnail?id=1myBTzXUwSKmLXs6QOyumd0d6iKdWO9bX&sz=w1000", category: "valedictory" },
+    { id: 183, src: "https://drive.google.com/thumbnail?id=18TcZ0w9fl1zYmcyTJ19y0k80qrqQR1fc&sz=w1000", category: "valedictory" },
+    { id: 184, src: "https://drive.google.com/thumbnail?id=1hM5uyrj247LtC-x_jJv3yBB8-KcSHY3L&sz=w1000", category: "valedictory" },
+    { id: 185, src: "https://drive.google.com/thumbnail?id=1lqlV1eC6obyAgiM5nQLG8jaH-qUi26Ml&sz=w1000", category: "valedictory" },
+    { id: 186, src: "https://drive.google.com/thumbnail?id=1YCwxhNQ1j8u7soCL2OaKVs8cEaEsiRLX&sz=w1000", category: "valedictory" },
+    { id: 187, src: "https://drive.google.com/thumbnail?id=16tWbLOTCtQ_cCll4_014l73PbvXhQbjr&sz=w1000", category: "valedictory" },
+    { id: 188, src: "https://drive.google.com/thumbnail?id=1nzD_2Xv8z1RpwGV7zXVD187b7VprVMkZ&sz=w1000", category: "valedictory" },
+    { id: 189, src: "https://drive.google.com/thumbnail?id=1yUIYys4HLC9L95yViVDwCLtBCwabe0eI&sz=w1000", category: "valedictory" },
+    { id: 190, src: "https://drive.google.com/thumbnail?id=10nw36oTJieinJQTu7GObsWBAxu1Bnt3n&sz=w1000", category: "valedictory" },
+    { id: 191, src: "https://drive.google.com/thumbnail?id=1XVEJUg3p8QNKdM9tWED6J-E01IheqdwO&sz=w1000", category: "valedictory" },
+    { id: 192, src: "https://drive.google.com/thumbnail?id=1QZ5czmYfQWRoDDsLt1-jMCofmRsq4HhL&sz=w1000", category: "valedictory" },
+    { id: 193, src: "https://drive.google.com/thumbnail?id=1Jl8z2BxaD4a0mlx31f7yY8IlY31p4CQT&sz=w1000", category: "valedictory" },
+    { id: 194, src: "https://drive.google.com/thumbnail?id=1F_ZWPSvT9NYagEG48nL1eeNmLRpvBIQ6&sz=w1000", category: "valedictory" },
+    { id: 195, src: "https://drive.google.com/thumbnail?id=1L_knLSr93waO9EpSKqvGgGQB4vpWd2cO&sz=w1000", category: "valedictory" },
+    { id: 196, src: "https://drive.google.com/thumbnail?id=1ev9Zcq1NZDPCDep-Dr79dSht4c0tN1Eq&sz=w1000", category: "valedictory" },
+    { id: 197, src: "https://drive.google.com/thumbnail?id=1XMHNlBUlsOnnqdHHv3lnAI2YHAdETPMa&sz=w1000", category: "valedictory" },
+    
+
+    // ========== GROUP PHOTOS (ID: 198 onwards) ==========
+    { id: 198, src: "https://drive.google.com/thumbnail?id=1HRfqRFEudIyClg7h9jEuoGsVpPH5yY89&sz=w1000", category: "group" },
+    { id: 199, src: "https://drive.google.com/thumbnail?id=1snueSR5YsWQ6Hqqmb4TpOXeXXi0IzhaT&sz=w1000", category: "group" },
+    { id: 200, src: "https://drive.google.com/thumbnail?id=1bI0ZsAgc3T6emgLXCVZoj_Nafu3kxhHY&sz=w1000", category: "group" },
+    { id: 201, src: "https://drive.google.com/thumbnail?id=1GnxUXkkh3idnM-rc7dbwDVNxShxwAwYQ&sz=w1000", category: "group" },
+    { id: 202, src: "https://drive.google.com/thumbnail?id=1cJ5WlNYrb_iYDZofPLvW50ZU1vG_6qSK&sz=w1000", category: "group" },
+    { id: 203, src: "https://drive.google.com/thumbnail?id=1fj9-tG8fUxKnlZki9hQDE4A-XpcsjNvT&sz=w1000", category: "group" },
+    { id: 204, src: "https://drive.google.com/thumbnail?id=1cEZ4N_QqQMv9fAkxF8XgoYNb0GyfxxO2&sz=w1000", category: "group" },
+    { id: 205, src: "https://drive.google.com/thumbnail?id=1dajXFpduUlD2Jsep6A8ih15Ev3zXlpWL&sz=w1000", category: "group" },
+    { id: 206, src: "https://drive.google.com/thumbnail?id=1na-qqIZ4qi3aX4l2-tQLFohMt9dHF8vr&sz=w1000", category: "group" },
+    { id: 207, src: "https://drive.google.com/thumbnail?id=1OG3VplKUbPcTe8MDP0Og9mmwRYbJaCd2&sz=w1000", category: "group" },
+    { id: 208, src: "https://drive.google.com/thumbnail?id=1CB-c-68AkycQdCN-8yy_yPvfhLBNYkGj&sz=w1000", category: "group" },
+    { id: 209, src: "https://drive.google.com/thumbnail?id=1VRB6qsSWiSWj3mJR-hhTpVihm13UE64-&sz=w1000", category: "group" },
+    { id: 210, src: "https://drive.google.com/thumbnail?id=188gkvMbQLek3S08bSByIhMf_ZRLZeowF&sz=w1000", category: "group" },
+    { id: 211, src: "https://drive.google.com/thumbnail?id=1b2jkFqIXcrXWJQxTKd7hnbfQx2txBqGU&sz=w1000", category: "group" },
+    { id: 212, src: "https://drive.google.com/thumbnail?id=1f0sZeSOlysBvNQWAo-G7rbjZ9ZMcQngK&sz=w1000", category: "group" },
+    { id: 213, src: "https://drive.google.com/thumbnail?id=1jD_0cfBba9b0eP3CbBiDILLboBHaB5_S&sz=w1000", category: "group" },
+    { id: 214, src: "https://drive.google.com/thumbnail?id=11NO-zJVcx8lpnTn939xk5tFJ84FUxJVn&sz=w1000", category: "group" },
+    { id: 215, src: "https://drive.google.com/thumbnail?id=1ao9d6hEOuiZSif6NHqqnEH2WP_dOVhnN&sz=w1000", category: "group" },
+    { id: 216, src: "https://drive.google.com/thumbnail?id=14LZNZYSEQRGeofsFgrJvMn-glxPGdYb7&sz=w1000", category: "group" },
+    { id: 217, src: "https://drive.google.com/thumbnail?id=1DfpwOHK-jGZgCDhcJkdEp9DZx7OnyryZ&sz=w1000", category: "group" },
+    { id: 218, src: "https://drive.google.com/thumbnail?id=1UX-EdovZzA7VKmVhPAtzqMJB_B4kpG3G&sz=w1000", category: "group" },
+    { id: 219, src: "https://drive.google.com/thumbnail?id=1cB0t6D28tEv7skc9eWAYio_73yvDTPm4&sz=w1000", category: "group" },
+    { id: 220, src: "https://drive.google.com/thumbnail?id=1sIakTYf9dMU5qM9qBBQAvgVXZRtm8tnY&sz=w1000", category: "group" },
+    { id: 221, src: "https://drive.google.com/thumbnail?id=1AIQFYlqs2F30GERri1qeEU1r72oRFasK&sz=w1000", category: "group" },
+    { id: 222, src: "https://drive.google.com/thumbnail?id=1LUbWkiIk5487xESxq0Zz6tW_uFXqsDb5&sz=w1000", category: "group" },
+    { id: 223, src: "https://drive.google.com/thumbnail?id=1VvVnsaizGzD365x7G7ZsL96QScoM3mNS&sz=w1000", category: "group" },
+    { id: 224, src: "https://drive.google.com/thumbnail?id=1ZMSNaiSF9NS14avAceE3_ze5VCdMFB2F&sz=w1000", category: "group" },
+    { id: 225, src: "https://drive.google.com/thumbnail?id=1Fpvb1A29OJg1hdU6ZHdsauIjLDNsBztb&sz=w1000", category: "group" },
+    { id: 226, src: "https://drive.google.com/thumbnail?id=1h4kDTQK1t6LlQXRz-Ngj1T1L8WVSD4UU&sz=w1000", category: "group" },
+    { id: 227, src: "https://drive.google.com/thumbnail?id=1IjfIBEBvjT_cssMsznFVc08hbEpTx47a&sz=w1000", category: "group" },
+    { id: 228, src: "https://drive.google.com/thumbnail?id=1oT3yyekVDHa4G_9HO0EFIoWeEPgLdHxG&sz=w1000", category: "group" },
+    { id: 229, src: "https://drive.google.com/thumbnail?id=1i78OECObf4CkSofLVCoDH9RE3fM_UPFC&sz=w1000", category: "group" },
+    { id: 230, src: "https://drive.google.com/thumbnail?id=1I1tzcadaOA8OgtIUjhgfZQg2cxyNcgvK&sz=w1000", category: "group" },
+    { id: 231, src: "https://drive.google.com/thumbnail?id=1IXtJK4on3MgMhVRCRqUlbOXaT2237CYr&sz=w1000", category: "group" },
+
+    // ========== MEMORY LANE - NC-ETMMD-26 (ID: 232 onwards) ==========
+    { id: 232, src: "https://drive.google.com/thumbnail?id=1KAAGB0EEeFm0lBnuGM8ATp3frQR2OkUu&sz=w1000", category: "memory" },
+    { id: 233, src: "https://drive.google.com/thumbnail?id=1URyFXtSE7ZU4XJRTQNXn6GlIhjeNqVGO&sz=w1000", category: "memory" },
+    { id: 234, src: "https://drive.google.com/thumbnail?id=1d6HiXugLu55Zwp6k93659Cu_aH9Upx0A&sz=w1000", category: "memory" },
+    { id: 235, src: "https://drive.google.com/thumbnail?id=1zqK3xXkddPV89eg0xG8StuYKKr3KpjVI&sz=w1000", category: "memory" },
+    { id: 236, src: "https://drive.google.com/thumbnail?id=1-tXNzEIStC7aSDpucY3JN8-xsUuWrp3q&sz=w1000", category: "memory" },
+    { id: 237, src: "https://drive.google.com/thumbnail?id=106awlFANlMnMSNi9fhG63HvA4ZXAh4dY&sz=w1000", category: "memory" },
+    { id: 238, src: "https://drive.google.com/thumbnail?id=1AAPC64D5Fa2yDnKZOo3tLMlvBpggQmrD&sz=w1000", category: "memory" },
+    { id: 239, src: "https://drive.google.com/thumbnail?id=1yTjPm8qXyu3F-rlHWOAozNmkppE3XTck&sz=w1000", category: "memory" },
+    { id: 240, src: "https://drive.google.com/thumbnail?id=1Oaese-_vY6o04OkSOx93rs6g3oW9hA0l&sz=w1000", category: "memory" },
+    { id: 241, src: "https://drive.google.com/thumbnail?id=1pRifuYdJ_to0bZyqet4y1pHtyTgLOlTg&sz=w1000", category: "memory" },
+    { id: 242, src: "https://drive.google.com/thumbnail?id=1xif6v5KHLyg1jAhuQIW1QIcvDLPO2m8R&sz=w1000", category: "memory" },
+    { id: 243, src: "https://drive.google.com/thumbnail?id=1GdsfP8j9rPvUVwWG-X57qAcpI0brSt4R&sz=w1000", category: "memory" },
+    { id: 244, src: "https://drive.google.com/thumbnail?id=1_Ze7QG01G3HC0eb-0IaGxB7rf9OIon5z&sz=w1000", category: "memory" },
+    { id: 245, src: "https://drive.google.com/thumbnail?id=1gxZQgY_lC_sATfe3dWW6j7GyCtY6jJ9-&sz=w1000", category: "memory" },
+    { id: 246, src: "https://drive.google.com/thumbnail?id=17uwb1wNvfHt0_TNhGiPvvjP3kGtDMGRQ&sz=w1000", category: "memory" },
+    { id: 247, src: "https://drive.google.com/thumbnail?id=1D5DUHU2YoauEkAP3oEQCE9SJCMOBS3R8&sz=w1000", category: "memory" },
+    { id: 248, src: "https://drive.google.com/thumbnail?id=1jNjq8sVQHgJURsijxRfT99hzrXDHZuiS&sz=w1000", category: "memory" },
+    { id: 249, src: "https://drive.google.com/thumbnail?id=1NzXITAQk8T5Tm37F8oN64TYVTA3APPYo&sz=w1000", category: "memory" },
+    { id: 250, src: "https://drive.google.com/thumbnail?id=15XBCTffZ8j9GbGvIvFr4JY_kOZ0VLqQH&sz=w1000", category: "memory" },
+    { id: 251, src: "https://drive.google.com/thumbnail?id=1IYWRzlfl-9hCs7RVugz_QU_GlcF9HKNX&sz=w1000", category: "memory" },
+    { id: 252, src: "https://drive.google.com/thumbnail?id=1xS4bMit3bO3XIpbGcvx1EIlPrAyfFQp2&sz=w1000", category: "memory" },
+    { id: 253, src: "https://drive.google.com/thumbnail?id=1aNc4bIeMAk1GqDiH6FnaKb0rmGap8hJz&sz=w1000", category: "memory" },
+    { id: 254, src: "https://drive.google.com/thumbnail?id=1d8V2cd7DChC5ASY4zwogf1QKQDBX5mUy&sz=w1000", category: "memory" },
+    { id: 255, src: "https://drive.google.com/thumbnail?id=1CtA2XQMJp9BuWAeUuyfyT4e74OYgUZ7Y&sz=w1000", category: "memory" },
+    { id: 256, src: "https://drive.google.com/thumbnail?id=1jSHyq6ZVym-z70m5RfRzMc8O1IEQQ3AL&sz=w1000", category: "memory" },
+    { id: 257, src: "https://drive.google.com/thumbnail?id=11wXplqzeMf4ei_RMfpTHj8Sm9ymROKcA&sz=w1000", category: "memory" },
+    { id: 258, src: "https://drive.google.com/thumbnail?id=17UgfPb2PnXyeukSOK0F4yTIjt-9p2CII&sz=w1000", category: "memory" },
+    { id: 259, src: "https://drive.google.com/thumbnail?id=1rolkKfd12RWuq1R_6F8DMyTy7_56ZGZY&sz=w1000", category: "memory" },
+    { id: 260, src: "https://drive.google.com/thumbnail?id=1hdYxSqA2pGtY60XleHATCFlrK5aahWgo&sz=w1000", category: "memory" },
+    { id: 261, src: "https://drive.google.com/thumbnail?id=1WVe24i-s-4sji5V5Bp4Q7LqI2g7_9MoY&sz=w1000", category: "memory" },
+    { id: 262, src: "https://drive.google.com/thumbnail?id=1mwM89tD59N8dGSy2nSEenQo8t8yVpV0Y&sz=w1000", category: "memory" },
+    { id: 263, src: "https://drive.google.com/thumbnail?id=17JjXgW5OJbNGTdNY4lT9_RDJdEszhxbS&sz=w1000", category: "memory" },
+    { id: 264, src: "https://drive.google.com/thumbnail?id=1Bn3xjgteyVQv5-sC9lr-1YaIaceZmEW1&sz=w1000", category: "memory" },
+    { id: 265, src: "https://drive.google.com/thumbnail?id=188-1pfnzaeD-xHvcT0mun1wFJXlfBdon&sz=w1000", category: "memory" },
+    { id: 266, src: "https://drive.google.com/thumbnail?id=1mdtHvjpN-NSrXHzHniZKVmc-TkFec6qK&sz=w1000", category: "memory" },
+    { id: 267, src: "https://drive.google.com/thumbnail?id=1J8uqZ8ESs_9aAHd506nRTo6NaXE-2Uuy&sz=w1000", category: "memory" },
+    { id: 268, src: "https://drive.google.com/thumbnail?id=1ptpxVOQ9VsaxkvsVrEkKz7PzGf3mWhPY&sz=w1000", category: "memory" },
+    { id: 269, src: "https://drive.google.com/thumbnail?id=1S9JT0rhV69vAuNhfhomEZLwzoTOqCj72&sz=w1000", category: "memory" },
+    { id: 270, src: "https://drive.google.com/thumbnail?id=1ANUaDPqawXtHh0rghCY9-TtVK2y3KbPY&sz=w1000", category: "memory" },
+    { id: 271, src: "https://drive.google.com/thumbnail?id=147QHSXIuTWuROLSJ2kwM7HhBIdAZWr5v&sz=w1000", category: "memory" },
+    { id: 272, src: "https://drive.google.com/thumbnail?id=1jwuWV0ClnyfCr7n59Z6TsUhzlx5FqrRe&sz=w1000", category: "memory" },
+    { id: 273, src: "https://drive.google.com/thumbnail?id=1uaTYwWesKTEXHO3ecLy_XgyG7RwTH-QW&sz=w1000", category: "memory" },
+    { id: 274, src: "https://drive.google.com/thumbnail?id=1FmDLXLDVXYBoQq2xXxxPxZZqggnH_N9c&sz=w1000", category: "memory" },
+    { id: 275, src: "https://drive.google.com/thumbnail?id=1eauxXJJFRmLhvuALRXP63zhULntnf49d&sz=w1000", category: "memory" },
+    { id: 276, src: "https://drive.google.com/thumbnail?id=1EZ6HjkgK1Fo-2FsRR8jEePwWAzOgYC67&sz=w1000", category: "memory" },
+    { id: 277, src: "https://drive.google.com/thumbnail?id=1Sdra3wbnHRVoAuGCiiTS-aSJ8MDX6ZQ6&sz=w1000", category: "memory" },
+    { id: 278, src: "https://drive.google.com/thumbnail?id=1CDcDyh_LVusFX2fp7fXie9nkXZbwmfwP&sz=w1000", category: "memory" },
+    { id: 279, src: "https://drive.google.com/thumbnail?id=1YcvvyyWSizCZeL1DZL8j_WlVYcbkOBS5&sz=w1000", category: "memory" },
+    { id: 280, src: "https://drive.google.com/thumbnail?id=1hCvy_f9ffd2IY1imqniGyQk3MLmSAo0h&sz=w1000", category: "memory" },
+    { id: 281, src: "https://drive.google.com/thumbnail?id=16QzX0e0RfznuJ2lQaHyJWXSPhrg4fkEz&sz=w1000", category: "memory" },
+    { id: 282, src: "https://drive.google.com/thumbnail?id=1EFIqQfhHN9ddBudJxhTpSF_97wQImg9E&sz=w1000", category: "memory" },
+    { id: 283, src: "https://drive.google.com/thumbnail?id=1B5vgfvgmR9thYY_58mAdiLyoTByHZws7&sz=w1000", category: "memory" },
+    { id: 284, src: "https://drive.google.com/thumbnail?id=1UvU5SJbk64zwr4Bi1LiZT6UQ7-l9qcHR&sz=w1000", category: "memory" },
+    { id: 285, src: "https://drive.google.com/thumbnail?id=1ILe_WpTDwv0kC5qanub_c9L13Ov8-vgr&sz=w1000", category: "memory" },
+    { id: 286, src: "https://drive.google.com/thumbnail?id=15hUigGDdeGRIhyoh0yH0b0ZO8k0jV1v1&sz=w1000", category: "memory" },
+    { id: 287, src: "https://drive.google.com/thumbnail?id=1jn1intwyEthr6o_hdymsEYQ0l9K831Nf&sz=w1000", category: "memory" },
+    { id: 288, src: "https://drive.google.com/thumbnail?id=1siWPfe3pZaVa8sAj7oNDfk63-SMt8Hqv&sz=w1000", category: "memory" },
+    { id: 289, src: "https://drive.google.com/thumbnail?id=1RaYk3gvjEY95vKC3qRspfqVKQatjOODN&sz=w1000", category: "memory" },
+    { id: 290, src: "https://drive.google.com/thumbnail?id=1naNmU6s42SQGG8VFt3E6u4NZis8ii4zQ&sz=w1000", category: "memory" },
+    { id: 291, src: "https://drive.google.com/thumbnail?id=11iXbtykHH3IocGxQKLeGJgjf5qa-MmJl&sz=w1000", category: "memory" },
+    { id: 292, src: "https://drive.google.com/thumbnail?id=15Zs9EKFHlMFwDxHxX7YllmPjyu1IZD1S&sz=w1000", category: "memory" },
+    { id: 293, src: "https://drive.google.com/thumbnail?id=1VrxEaXdv2Qe65FHCs4iHT9YmbK_6MPK7&sz=w1000", category: "memory" },
+    { id: 294, src: "https://drive.google.com/thumbnail?id=1Dk8I0KtlIPQsWG2d6hawzToJ7ZOF-8r0&sz=w1000", category: "memory" },
+    { id: 295, src: "https://drive.google.com/thumbnail?id=1GU3oVTSrQfApvuN0I1u11HGyJFxMiVGl&sz=w1000", category: "memory" },
+    { id: 296, src: "https://drive.google.com/thumbnail?id=1epsWAcbF1lFcmHeC65FsEYrBgh7Q7gEY&sz=w1000", category: "memory" },
+    { id: 297, src: "https://drive.google.com/thumbnail?id=1oPawwTIybvdNmGJbvMFdxJjT0maf4hEs&sz=w1000", category: "memory" },
+    { id: 298, src: "https://drive.google.com/thumbnail?id=14MBHV3qZBTjSO8C4CIkM6zmL8ZrCX_Bk&sz=w1000", category: "memory" },
+    { id: 299, src: "https://drive.google.com/thumbnail?id=1RswHxEli1BxqebB7BcstCXLUDMODkSdw&sz=w1000", category: "memory" },
+    { id: 300, src: "https://drive.google.com/thumbnail?id=1UkXM5N1drPQqpFnU_i6OB6U6XOh2vut6&sz=w1000", category: "memory" },
+    { id: 301, src: "https://drive.google.com/thumbnail?id=15TnZ8Gss4Ef9f78nZ1WHKCS-1-uz6eT0&sz=w1000", category: "memory" },
+    { id: 302, src: "https://drive.google.com/thumbnail?id=1ER2GORG0quMED-J0ecICEud70UQft3rc&sz=w1000", category: "memory" },
+    { id: 303, src: "https://drive.google.com/thumbnail?id=1AU1BXnejgPeUeSJNr8xWfjZ3buwFP4-T&sz=w1000", category: "memory" },
+    { id: 304, src: "https://drive.google.com/thumbnail?id=1NyAuCBBWQz3rNYTlkHTATwCglbr6zaWQ&sz=w1000", category: "memory" },
+    { id: 305, src: "https://drive.google.com/thumbnail?id=1Qbru-RBA463MxpvpIdIC5_PcrtwLLEoV&sz=w1000", category: "memory" },
+    { id: 306, src: "https://drive.google.com/thumbnail?id=19R57NfIQpvLw8T4pFf7U773Bt_JN807k&sz=w1000", category: "memory" },
+    { id: 307, src: "https://drive.google.com/thumbnail?id=1THLmmZUZbirkqSEzTcg5ECQE5Zu2uEHH&sz=w1000", category: "memory" },
+    { id: 308, src: "https://drive.google.com/thumbnail?id=1nvL5kS0Oz098uvCsqtHaLTUNstCuCPco&sz=w1000", category: "memory" },
+    { id: 309, src: "https://drive.google.com/thumbnail?id=1LAiQXDq1kJTr1GSB3oVE81Q8x1NCr46M&sz=w1000", category: "memory" },
+    { id: 310, src: "https://drive.google.com/thumbnail?id=1zd8rPvh_sms3yqKkVzapCMYmKxq89JcG&sz=w1000", category: "memory" },
+    { id: 311, src: "https://drive.google.com/thumbnail?id=1m2lxjN6GB3IayyDt6A3pj72qI4ddDvRy&sz=w1000", category: "memory" },
+    { id: 312, src: "https://drive.google.com/thumbnail?id=1DDjwI724uU2dQGYnenEQi21UU8Djr07J&sz=w1000", category: "memory" },
+    { id: 313, src: "https://drive.google.com/thumbnail?id=1rg0HxdIXWuYVdFvbA7IUJaaXvq9tKeSE&sz=w1000", category: "memory" },
+    { id: 314, src: "https://drive.google.com/thumbnail?id=1yGB5bYs-Ewb8bxNZ5z_A0krB9wCPMr8A&sz=w1000", category: "memory" },
+    { id: 315, src: "https://drive.google.com/thumbnail?id=1rGGbgrHnijqHZq5ybH-or9E3QOAwBXCN&sz=w1000", category: "memory" },
+    { id: 316, src: "https://drive.google.com/thumbnail?id=1FjHNDePBWBcqLCnhwNLePSOSRnN5LqY4&sz=w1000", category: "memory" }
 ];
 
 // ==================== CONFIGURATION ====================
@@ -190,10 +341,10 @@ const categories = [
     { id: 'all', label: 'ALL' },
     { id: 'inaugural', label: 'INAUGURAL' },
     { id: 'speaker', label: 'SPEAKER' },
-    { id: 'poster', label: 'POSTER' },
-    { id: 'oral', label: 'ORAL' },
+    { id: 'oral_poster', label: 'POSTER & ORAL' },
     { id: 'valedictory', label: 'VALEDICTORY' },
-    { id: 'group', label: 'GROUP' }
+    { id: 'group', label: 'GROUP' },
+    { id: 'memory', label: 'MEMORY' }
 ];
 
 // Category icons (simple geometric shapes)
@@ -333,12 +484,24 @@ function renderTimeline() {
     const timeline = document.getElementById('timeline');
     const mainCategories = categories.filter(c => c.id !== 'all');
     
+    // Font Awesome icons for each category
+    const categoryIconsFA = {
+        inaugural: '<i class="fa-solid fa-menorah"></i>',           // Lamp icon
+        speaker: '<i class="fas fa-chalkboard-user"></i>',  // Speaker/Teacher icon
+        oral_poster: '<i class="fas fa-file-alt"></i>',     // Document icon
+        valedictory: '<i class="fas fa-trophy"></i>',       // Trophy icon
+        group: '<i class="fas fa-users"></i>',              // People group icon
+        memory: '<i class="fas fa-clock-rotate-left"></i>'   // History/Memory icon
+    };
+    
     timeline.innerHTML = mainCategories.map((cat, idx) => {
         const count = galleryData.filter(img => img.category === cat.id).length;
         return `
             ${idx > 0 ? '<div class="timeline-line"></div>' : ''}
             <div class="timeline-point" data-filter="${cat.id}">
-                <span class="point-icon">${categoryIcons[cat.id]}</span>
+                <div class="point-icon-wrapper">
+                    <div class="point-icon">${categoryIconsFA[cat.id] || '<i class="fas fa-circle"></i>'}</div>
+                </div>
                 <span class="point-label">${cat.label}</span>
                 <span class="point-count">${count}</span>
             </div>
@@ -352,6 +515,10 @@ function renderTimeline() {
             currentFilter = filter;
             renderFilters();
             renderGallery(filterImages(filter));
+            
+            // Update active state in timeline
+            document.querySelectorAll('.timeline-point').forEach(p => p.classList.remove('active'));
+            this.classList.add('active');
             
             // Scroll to gallery
             document.querySelector('.gallery-section').scrollIntoView({ 
@@ -418,6 +585,153 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, 500);
 });
+
+// ==================== REGISTRATION POP-UP (Conference Ended) ====================
+function showConferenceEndedPopup() {
+    // Create popup container
+    const popup = document.createElement('div');
+    popup.className = 'popup-overlay';
+    popup.innerHTML = `
+        <div class="popup-content">
+            <button class="popup-close">&times;</button>
+            <div class="popup-icon">🎉</div>
+            <h2>NC-ETMMD-2026</h2>
+            <h3>Successfully Concluded!</h3>
+            <div class="popup-dates">March 11-12, 2026</div>
+            <div class="popup-message">
+                <p>The conference has been successfully completed with remarkable participation from researchers, academicians, and industry experts across the nation.</p>
+                <p>Thank you to all speakers, delegates, and organizers for making this event a grand success!</p>
+            </div>
+            <div class="popup-stats">
+                <div class="stat">
+                    <span class="stat-number">300+</span>
+                    <span class="stat-label">Participants</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">30+</span>
+                    <span class="stat-label">Speakers</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Presentations</span>
+                </div>
+            </div>
+            <div class="popup-footer">
+                <p> Visit our <a href="#" id="galleryLinkFromPopup">Gallery</a> to relive the memories</p>
+                <p class="popup-thanks">— Organizing Committee, School of Physical Sciences, JNU —</p>
+            </div>
+            <button class="popup-button">Close</button>
+        </div>
+    `;
+    
+    document.body.appendChild(popup);
+    document.body.style.overflow = 'hidden';
+    
+    // Close popup function
+    function closePopup() {
+        popup.classList.add('fade-out');
+        setTimeout(() => {
+            popup.remove();
+            document.body.style.overflow = '';
+        }, 300);
+    }
+    
+    // Event listeners for close buttons
+    const closeBtn = popup.querySelector('.popup-close');
+    const closeButton = popup.querySelector('.popup-button');
+    const galleryLink = popup.querySelector('#galleryLinkFromPopup');
+    
+    if (closeBtn) closeBtn.addEventListener('click', closePopup);
+    if (closeButton) closeButton.addEventListener('click', closePopup);
+    
+    // Click outside to close
+    popup.addEventListener('click', (e) => {
+        if (e.target === popup) closePopup();
+    });
+    
+    // Gallery link handler
+    if (galleryLink) {
+        galleryLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            closePopup();
+            const gallerySection = document.querySelector('.gallery-section');
+            if (gallerySection) {
+                gallerySection.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    }
+}
+
+// STRONGER EVENT LISTENER - Multiple ways to ensure it works
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded - checking for registration link');
+    
+    // Method 1: Get by ID
+    const registrationLink = document.getElementById('registrationLink');
+    
+    if (registrationLink) {
+        console.log('Registration link found!');
+        
+        // Remove any existing listeners
+        const newLink = registrationLink.cloneNode(true);
+        registrationLink.parentNode.replaceChild(newLink, registrationLink);
+        
+        // Add fresh event listener
+        newLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Registration link clicked - showing popup');
+            showConferenceEndedPopup();
+            return false;
+        });
+    } else {
+        console.log('Registration link NOT found - checking with selector');
+        
+        // Method 2: Find by text content (fallback)
+        const allLinks = document.querySelectorAll('.footer-section a');
+        let registrationLinkFound = null;
+        
+        allLinks.forEach(link => {
+            if (link.textContent.trim() === 'Registration') {
+                registrationLinkFound = link;
+            }
+        });
+        
+        if (registrationLinkFound) {
+            console.log('Found registration link by text!');
+            registrationLinkFound.setAttribute('href', 'javascript:void(0);');
+            registrationLinkFound.id = 'registrationLink';
+            
+            registrationLinkFound.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                console.log('Registration link clicked - showing popup');
+                showConferenceEndedPopup();
+                return false;
+            });
+        }
+    }
+});
+
+// Extra fallback - if footer loads after DOMContentLoaded (due to fetch)
+setTimeout(function() {
+    const registrationLink = document.getElementById('registrationLink');
+    if (registrationLink) {
+        // Make sure it has the right href
+        registrationLink.setAttribute('href', 'javascript:void(0);');
+        
+        // Add event listener if not already added
+        if (!registrationLink.hasAttribute('data-listener-added')) {
+            registrationLink.setAttribute('data-listener-added', 'true');
+            registrationLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                showConferenceEndedPopup();
+                return false;
+            });
+        }
+    }
+}, 1000);
 
 // ==================== INITIALIZATION ====================
 // Note: Most initialization happens after components load
