@@ -599,8 +599,8 @@ function showConferenceEndedPopup() {
             <h3>Successfully Concluded!</h3>
             <div class="popup-dates">March 11-12, 2026</div>
             <div class="popup-message">
-                <p>The conference has been successfully completed with remarkable participation from researchers, academicians, and industry experts across the nation.</p>
-                <p>Thank you to all speakers, delegates, and organizers for making this event a grand success!</p>
+                <p>The conference concluded successfully with strong participation from across the nation.</p>  
+                <p>Thanks to all !</p>
             </div>
             <div class="popup-stats">
                 <div class="stat">
