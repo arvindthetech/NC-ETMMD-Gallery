@@ -32,7 +32,3 @@ The gallery features **316+ high-quality photos** capturing memorable moments fr
 | Group Photos | 34 |
 | Memory Lane | 85 |
 | **Total** | **316** |
-
----
-
-## 📁 Project Structure
